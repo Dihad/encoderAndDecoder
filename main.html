@@ -1,0 +1,42 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>অনলাইন যোগাযোগের গোপনীয়তা রক্ষায় এনকোডার ও ডিকোডার</title>
+  <link rel="stylesheet" href="eon.css">
+
+</head>
+<body>
+  
+  
+  <div class="container">
+
+
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea id="input-text" placeholder="Enter text to encode or decode"></textarea>
+        <textarea id="output-text" readonly placeholder="encoded or decoded text will show here"></textarea>
+      </div>
+      
+    </div>
+    <div class="wrapper">
+      <div class="text-input">
+        <input type="number" id="key-input" placeholder="Enter a key number">
+        <button id="encode-button">Encode</button>
+        <button id="decode-button">Decode</button>
+        <button id="decode-button" onclick="window.location.href='help.html';">help</button>
+      </div>
+      
+    </div>
+    
+
+    
+  </div>
+
+
+  <script src="eon.js"></script>
+  <script src="server.js"></script>
+</body>
+</html>
+
